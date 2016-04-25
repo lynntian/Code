@@ -1,0 +1,30 @@
+[
+    {
+        "UnzipFolder": "D:\\Temp\\AIRMax_cleanup", 
+        "specFile": "D:\\Temp\\AIRMax_cleanup\\AIRMax_cleanup.nuspec"
+    }, 
+    {
+        "UnzipFolder": "D:\\Temp\\AIRViz_Toolkit", 
+        "specFile": "D:\\Temp\\AIRViz_Toolkit\\AIRViz_Toolkit.nuspec"
+    }, 
+    {
+        "UnzipFolder": "D:\\Temp\\Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110", 
+        "specFile": "D:\\Temp\\Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110\\Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110.nuspec"
+    }, 
+    {
+        "UnzipFolder": "D:\\Temp\\QPropertyBrowser-2.6-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110", 
+        "specFile": "D:\\Temp\\QPropertyBrowser-2.6-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110\\QPropertyBrowser-2.6-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110.nuspec"
+    }, 
+    {
+        "UnzipFolder": "D:\\Temp\\qwt-6.1.0-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110", 
+        "specFile": "D:\\Temp\\qwt-6.1.0-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110\\qwt-6.1.0-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110.nuspec"
+    }, 
+    {
+        "UnzipFolder": "D:\\Temp\\Scaleform_4.4.29_pruned", 
+        "specFile": "D:\\Temp\\Scaleform_4.4.29_pruned\\Scaleform_4.4.29_pruned.nuspec"
+    }, 
+    {
+        "UnzipFolder": "D:\\Temp\\Screencast-1.2.1", 
+        "specFile": "D:\\Temp\\Screencast-1.2.1\\Screencast-1.2.1.nuspec"
+    }
+]

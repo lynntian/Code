@@ -1,0 +1,338 @@
+[
+    {
+        "name": "AIRViz-cleanup", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\AIRMax\\AIRMax_cleanup.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\AIRMax"
+    }, 
+    {
+        "name": "AIRViz", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\GEC\\BB15.11_1122_WIN_VC11\\AIRViz\\AIRViz_Toolkit.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GEC"
+    }, 
+    {
+        "name": "ADP_Toolkit", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\GEC\\ADP_6_1_1\\ADP_Toolkit.zip", 
+        "EraseFolder": "False", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GEC"
+    }, 
+    {
+        "name": "AdCoreUnits", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\GEC\\BB15.11_1122_WIN_VC11\\AdCoreUnits\\AdCoreUnits_Toolkit.zip", 
+        "EraseFolder": "False", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GEC"
+    }, 
+    {
+        "name": "Protein", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\GEC\\BB15.11_1122_WIN_VC11\\Protein\\Protein_Toolkit.zip", 
+        "EraseFolder": "False", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GEC"
+    }, 
+    {
+        "name": "AIRViz 3rd party", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\GEC\\BB15.11_1122_WIN_VC11\\BRE_3P_BB15.11.zip", 
+        "EraseFolder": "False", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GEC"
+    }, 
+    {
+        "name": "AdWebServices", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\AdWebServices\\AdWebServices_7.2.3.1800.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\AdWebServices"
+    }, 
+    {
+        "name": "FBX", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\FBX\\fbxsdk-2014.1-vs2012.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\FBX"
+    }, 
+    {
+        "name": "FDO", 
+        "PostP4": "True", 
+        "Source": "FDO\\M040\\M040-fdosdk.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "BuildComponents", 
+        "Target": "3rdParty\\Fdo"
+    }, 
+    {
+        "name": "Qt", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\Qt\\Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Qt"
+    }, 
+    {
+        "name": "QPropertyBrowser", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\Qt\\QPropertyBrowser-2.6-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110.7z", 
+        "EraseFolder": "False", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Qt"
+    }, 
+    {
+        "name": "Qwt", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\Qt\\qwt-6.1.0-Qt-5.3.2-NoJit-OpenSSL1.0.1m-ICU52-vc110.7z", 
+        "EraseFolder": "False", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Qt"
+    }, 
+    {
+        "name": "Perl", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\Perl\\Perl-5.8.9-x64.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Perl"
+    }, 
+    {
+        "name": "GDAL", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\GDAL\\gdal-1.11.3-vc110.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\gdal"
+    }, 
+    {
+        "name": "LandXML", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\LandXML\\LandXML-1.2-VC11-InfraWorks.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\LandXML"
+    }, 
+    {
+        "name": "Git", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\Git\\PortableGit-2.6.2-64-bit.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Git"
+    }, 
+    {
+        "name": "CIP", 
+        "PostP4": "false", 
+        "Source": "BuildComponents\\CIP\\MC3Components_9.1.2012.7.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\CIP"
+    }, 
+    {
+        "name": "CIPSymbols", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\CIP\\MC3Symbols_9.1.2012.7.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\CIP\\Symbols"
+    }, 
+    {
+        "name": "CER", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\CER\\CERClientComponents_5.4.0.0.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\CER"
+    }, 
+    {
+        "name": "CERSymbols", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\CER\\CERClientSymbols_5.4.0.0.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\CER\\Symbols"
+    }, 
+    {
+        "name": "strmbase", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\strmbase\\strmbase_20120403.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\strmbase"
+    }, 
+    {
+        "name": "OpenSSL", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\OpenSSL\\OpenSSL_1.0.1m_x64_vc110.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\OpenSSL"
+    }, 
+    {
+        "name": "WinDDK", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\WinDDK\\WinDDK.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\WinDDK"
+    }, 
+    {
+        "name": "Doxygen", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\Doxygen\\doxygen-1.8.7.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Doxygen"
+    }, 
+    {
+        "name": "EcotectServices", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\EcotectServices\\EcotectServices.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\EcotectServices"
+    }, 
+    {
+        "name": "zLib", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\zLib\\zLib.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\zLib"
+    }, 
+    {
+        "name": "CMake", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\CMake\\cmake-3.1.0-win32-x86.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\CMake"
+    }, 
+    {
+        "name": "FlexSDK", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\FlexSDK\\FlexSDK-4.13.0.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\FlexSDK"
+    }, 
+    {
+        "name": "FlashLib", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\FlashLib\\FlashLib-1.1.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\FlashLib"
+    }, 
+    {
+        "name": "Scaleform", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\Scaleform\\Scaleform_4.4.29_pruned.7z", 
+        "EraseFolder": "true", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Scaleform"
+    }, 
+    {
+        "name": "CppUnit", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\CppUnit\\cppunit-1.12.1-vc110.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\CppUnit"
+    }, 
+    {
+        "name": "AdSpatialReference", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\AdSpatialReference\\AdSpatialReference_1404_1_msm_only.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\AdSpatialReference"
+    }, 
+    {
+        "name": "InventorServer", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\InventorServer\\InventorServer_2016_M20_21090_x64_R3_srv.7z", 
+        "EraseFolder": "true", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\InventorServer"
+    }, 
+    {
+        "name": "InventorServerDeveloperTools", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\InventorServer\\DeveloperTools\\DeveloperTools_2016_M20_21090_x64_R3.7z", 
+        "EraseFolder": "true", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\InventorServer"
+    }, 
+    {
+        "name": "GnuPlot", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\Gnuplot\\gp465-win32.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GnuPlot"
+    }, 
+    {
+        "name": "GraphViz", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\GraphViz\\graphviz.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\GraphViz"
+    }, 
+    {
+        "name": "SBDTranslation", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\SBDTranslation\\151\\SBDTrans.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\SBDTranslation"
+    }, 
+    {
+        "name": "Screencast", 
+        "PostP4": "True", 
+        "Source": "BuildComponents\\Screencast\\Screencast-1.2.1.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Screencast"
+    }, 
+    {
+        "name": "TrafficAnalyst", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\TrafficAnalyst\\TrafficAnalyst-7.0.1.11-Dev.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\TrafficAnalyst"
+    }, 
+    {
+        "name": "Java", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\Java\\jre1.7.0_79-private-win64.7z", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\Java"
+    }, 
+    {
+        "name": "LMVToolkit", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\LMV\\ExtractorToolkit-1.8.6.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\LmvExtractorToolkit"
+    }, 
+    {
+        "name": "OculusSDK", 
+        "PostP4": "False", 
+        "Source": "BuildComponents\\OculusSDK\\ovr_sdk_win_0.6.0.1.zip", 
+        "EraseFolder": "True", 
+        "NetShare": "Project", 
+        "Target": "3rdParty\\OculusSDK"
+    }
+]
