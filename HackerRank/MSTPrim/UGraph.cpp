@@ -66,6 +66,21 @@ public:
 
     ~UGraph() { graph.clear(); }
 
+    vector<pair<T, int>>& operator[](T node)
+    {
+        return graph[node];
+    }
+
+    typename unordered_map<T, vector<pair<T, int>>>::iterator begin()
+    {
+        return graph.begin();
+    }
+
+    typename unordered_map<T, vector<pair<T, int>>>::iterator end()
+    {
+        return graph.end();
+    }
+
     int Size()
     {
         return graph.size();

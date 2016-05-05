@@ -7,8 +7,6 @@
 #include <unordered_map>
 #include <climits>
 #include <vector>
-#include <queue>
-#include <tuple>
 
 using namespace std;
 
@@ -129,7 +127,7 @@ bool findShortestEdge(UGraph<int>& graph, unordered_map<int, bool>& visited, int
     for(auto& fromNode : visited)
     {
         if(!fromNode.second) continue;
-        for(auto &edge : graph[fromNode.first])
+        for(auto &edge : graph[fromNode.first]) //<-- possible improve use binary heap to find shortest edge
         {
             if(edge.second < connectEdge && !visited[edge.first]) // edge shorter than minimum and unvisited
             {
