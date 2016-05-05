@@ -37,6 +37,7 @@ void parserhelper(string hrml, MyMap& lookup, string& curTag)
 		{
 			if(hrml.find(' ') == string::npos && hrml.back() == '>')
 			{
+				//This is to deal with tags that have no attributes
 				curTag = curTag.empty() ? hrml.substr(1, hrml.length() -2) : (curTag + "."+hrml.substr(1, hrml.length() -2));
 				return;
 			}
@@ -129,6 +130,7 @@ void parser(string fileName, vector<string>& queries, MyMap& lookup)
 		string printStr = "Not Found!";
 
 		auto ind = qs.find('~');
+		//check if current query is valid
 		if(ind != string::npos)
 		{
 			auto tag = qs.substr(0, ind);
