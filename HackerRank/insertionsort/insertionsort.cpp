@@ -43,6 +43,26 @@ void printArr(int ar_size, int *  ar)
    cout << endl;
 }
 
+void insertionSort_EXAMPLE(int N, int arr[]) {
+    int i,j;
+    int value;
+    for(i=1;i<N;i++)
+    {
+        value=arr[i];
+        j=i-1;
+        while(j>=0 && value<arr[j])
+        {
+            arr[j+1]=arr[j];
+            j=j-1;
+        }
+        arr[j+1]=value;
+    }
+    for(j=0;j<N;j++)
+    {
+        printf("%d",arr[j]);
+        printf(" ");
+    }
+}
 
 void insertionSortPartial(int*  ar, int start, int end, int ar_size) {
 
