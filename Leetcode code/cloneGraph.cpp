@@ -14,8 +14,6 @@ public:
     UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
         if(!node) return nullptr;
         auto clone = new UndirectedGraphNode(node->label);
-        //bfs
-        //bfs(node, clone);
 
         //dfs
         auto lookup = unordered_map<int, UndirectedGraphNode*>();
